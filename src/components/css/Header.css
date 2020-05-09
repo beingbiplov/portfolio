@@ -1,0 +1,68 @@
+.Intro_section{
+	margin:0px auto;
+	padding: 90px 0px;
+	max-width: 1000px;
+	min-height: 100vh;
+}
+
+.intro_opening{
+	color:rgb(100, 255, 218);
+	margin:0px 0px 0px 3px;
+	font-size: 16px;
+	font-weight: normal;
+}
+
+.intro_name{
+	font-size: 80px;
+	line-height: 1.1;
+	color: rgb(204,214,246);
+}
+.intro_closing{
+	font-size: 80px;
+	line-height: 1.1;
+	color: rgb(136,146,176);
+}
+.intro_about{
+	margin-top: 25px;
+	max-width: 500px;
+}
+.git_section{
+	margin-top: 50px;
+	text-decoration: none;
+}
+.git_button{
+	color:rgb(100, 255, 218);
+	border: 1px solid rgb(100, 255, 218);
+	border-radius: 3px;
+	padding: 1.25rem 1.75rem;
+	font-size: 14px;
+	line-height: 1;
+	text-decoration: none;
+	cursor: pointer;
+	margin-top: 50px;
+	transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+}
+
+.git_button:hover{
+	background-color: #132439;
+	color:rgb(100, 255, 218);
+	text-decoration: none;
+}
+
+@media(max-width: 1024px){
+	.Intro_section{
+		margin-left: 5%;
+	}
+
+	.intro_opening{
+		font-size: 13px;
+	}
+
+	.intro_name{
+		font-size: 70px;
+	}
+	.intro_closing{
+		font-size: 70px;
+	}
+}
+
