@@ -4,7 +4,7 @@
 
 .about{
 	margin: 0px auto;
-	padding: 50px 0px;
+	padding: 35px 0px 75px 0px;
 	position: relative;
 }
 
@@ -69,7 +69,7 @@ p{
 
 @media(max-width: 768px){
 	.about_section_image{
-		margin-left: 25%;
+		margin-left: 15%;
 	}
 	.about_image{
 		margin-top: 15px;

@@ -5,7 +5,7 @@ import about_image from './assets/about_image.jpg'
 
 const About = () =>{
 	return(
-		<Container className='about'>
+		<Container className='about' id='about_section'>
 			<h3 className='about_title'>
 					About Me
 				</h3>
@@ -22,12 +22,14 @@ const About = () =>{
 					<p>
 						I am a Computer Science student with diverse set of skills, ranging
 						from HTML/CSS + JavaScript, all the way to Django and React, and I am
-						comfortable developing on the backend as wll as frontend.
+						comfortable developing on the backend as well as frontend.
 					</p>
 				</Col>
 				<Col md={5}>
 					<div className='about_section_image'>
-						<Image className='about_image' src={about_image} rounded />
+						<a href='https://github.com/beingbiplov'>
+							<Image className='about_image' src={about_image} rounded />
+						</a>
 					</div>
 				</Col>
 			</Row>
