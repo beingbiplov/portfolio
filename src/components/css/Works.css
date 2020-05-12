@@ -34,6 +34,14 @@
 	padding: 0px 55px;
 }
 
+@media(max-width: 1024px){
+	.works_section{
+		padding-left: 10px;
+	}
+}
+
+
+
 @media(max-width: 756px){
 	.works_section h3:after{
 		max-width: 200px;
