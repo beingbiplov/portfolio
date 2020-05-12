@@ -7,8 +7,8 @@ const About = () =>{
 	return(
 		<Container className='about' id='about_section'>
 			<h3 className='about_title'>
-					About Me
-				</h3>
+				About Me
+			</h3>
 			<Row>
 				<Col md={7}>
 					<p>

@@ -52,3 +52,10 @@
 
 	}
 }
+
+@media(max-width: 756px){
+	.skills_section h3:after{
+		max-width: 200px;
+		margin-left: 10px;
+	}
+}

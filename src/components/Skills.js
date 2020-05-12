@@ -9,10 +9,10 @@ function importAll(r) {
   return images;
 }
 
-const images = importAll(require.context('./assets', false, /\.(png|jpe?g|svg)$/));
+const images = importAll(require.context('./assets/skills_icon', false, /\.(png|jpe?g|svg)$/));
 
 const Skills = () =>{
-	const [skills, setSkills] = useState([
+	const [skills] = useState([
 			{'name':'Python', 'icon':images['python.svg']},
 			{'name':'Django', 'icon':images['django.svg']}, 
 			{'name':'JavaScript', 'icon':images['javascript.svg']}, 
@@ -24,9 +24,9 @@ const Skills = () =>{
 			
 		])
 
-	const skillset = skills.map(skill => 
-			<Col lg={3} md={4} sm={6}>
-				<div className='skills'> 
+	const skillset = skills.map((skill, index) => 
+			<Col lg={3} md={4} sm={6} key={index}>
+				<div className='skills' > 
 					{skill.name}
 					<Image className='icons' src={skill.icon} />
 				</div>
