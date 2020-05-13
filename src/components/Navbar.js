@@ -1,14 +1,17 @@
 import React from 'react'
 import './css/Navbar.css'
-import { Navbar } from 'react-bootstrap'
+import { Navbar, Image } from 'react-bootstrap'
 import Headroom from 'react-headroom'
+import biplov_logo from './assets/logo/biplov_logo.png'
 
 const NavigationBar = () => {
 	return(
 		<Headroom>
-		<div className="container" id='navbar_section'>
+		<div className="container-fluid" id='navbar_section'>
 		    <Navbar className="navbar  py-3" expand='md'>
-		        <Navbar.Brand href="#navbar_section">BIPLOV</Navbar.Brand>
+		        <Navbar.Brand href="#Intro_section">
+		        	<Image className = 'brand_logo' src={biplov_logo} />
+		        </Navbar.Brand>
 		         <Navbar.Toggle aria-controls="basic-navbar-nav" >
 		         	<i className="fa fa-bars"></i>
 		         </Navbar.Toggle>

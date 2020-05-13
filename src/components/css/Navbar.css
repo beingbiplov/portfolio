@@ -22,8 +22,19 @@
     color:rgb(100, 255, 218);
 }
 
-.navbar-brand:hover{
-    color: rgb(204, 214, 246)!important;
+.navbar-brand{
+    padding-left: 5%;
+}
+
+.brand_logo{
+    height: 40px;
+    width: 40px;
+}
+
+.brand_logo:hover{
+    height: 42px;
+    width: 42px;
+    transition: 0.3s;
 }
 
 
