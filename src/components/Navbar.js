@@ -1,10 +1,11 @@
 import React from 'react'
 import './css/Navbar.css'
 import { Navbar } from 'react-bootstrap'
-
+import Headroom from 'react-headroom'
 
 const NavigationBar = () => {
 	return(
+		<Headroom>
 		<div className="container" id='navbar_section'>
 		    <Navbar className="navbar  py-3" expand='md'>
 		        <Navbar.Brand href="#navbar_section">BIPLOV</Navbar.Brand>
@@ -24,6 +25,7 @@ const NavigationBar = () => {
 		        
 		    </Navbar>
 		</div>
+		</Headroom>
 	)
 }
 

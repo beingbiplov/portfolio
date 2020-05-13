@@ -1,6 +1,7 @@
 .navbar {
     transition: all 0.4s;
     font-family: SF Mono, Fira Code, Fira Mono, Roboto Mono, Lucida Console, Monaco, monospace;
+    background-color: #0a192f;
 }
 
 
