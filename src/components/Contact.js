@@ -10,7 +10,7 @@ const Contact = () =>{
 			</h3>
 			<div className='contact'>
 				<p className='contact_text'>
-					I'm currently looking for new opportunities. Whether you need 
+					I'm currently open to new opportunities. Whether you need 
 					some help or want to collaborate, just leave a message and I will
 					get back to you as soon as possible. 
 				</p>
