@@ -1,0 +1,23 @@
+.footer_section{
+	margin: 0px auto;
+	padding: 75px 0px;
+	position: relative;
+	text-align: center;
+	padding-bottom: 15px;
+}
+
+.footer_icons{
+	padding: 0px 20px;
+	font-size: 20px;
+	color: rgb(136,146,176);
+	transition: 0.2s ease-in-out;
+}
+
+.footer_icons:hover{
+	color: rgb(100, 255, 218);
+	font-size: 25px;
+}
+.footer_text{
+	font-size:12px;
+	padding: 12px;
+}

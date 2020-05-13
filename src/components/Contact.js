@@ -1,6 +1,6 @@
 import React from 'react'
 import './css/Contact.css'
-import { Container, Row, Col } from 'react-bootstrap'
+import { Container } from 'react-bootstrap'
 
 const Contact = () =>{
 	return(
