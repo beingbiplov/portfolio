@@ -6,10 +6,10 @@ const Projectlinks = (props) => {
 	return(
 		<Container>
 			<Row className='link_section'>
-				<Col lg={6} className='link'>
+				<Col md={6} className='link'>
 					<a className='link_button' href={ props.demolink }> Live Demo </a>
 				</Col>
-				<Col lg={6}>
+				<Col md={6}>
 					<a className='link_button' href={ props.githublink }> Github repo </a>					
 				</Col>
 			</Row>

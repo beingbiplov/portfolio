@@ -13,7 +13,7 @@ const Footer = () =>{
 			<a href='https://twitter.com/BeingBiplov'>
 				<i className="fab fa-twitter footer_icons"></i>
 			</a>
-			<a href='dev.to/biplov/'>
+			<a href='https://dev.to/biplov/'>
 				<i className="fab fa-dev footer_icons"></i>
 			</a>
 			<p className='footer_text'>

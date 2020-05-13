@@ -15,12 +15,12 @@ const Works = () =>{
 				My Works
 			</h3>
 			<Row className='project'>
-				<Col md={5} className='project_thumbnail'>
+				<Col lg={5} className='project_thumbnail'>
 					<a href='https://beingbiplov.github.io/Sampadak/'>
 						<Image className='work_thumbnail' src={sampadakThumbnail} />
 					</a>
 				</Col>
-				<Col md={7} className='project_info'>
+				<Col lg={7} className='project_info'>
 					<h4 className='project_title'> Sampadak: Online Markdown Editor </h4>
 					<Tags tags = {['HTML/CSS','JavaScript', 'jQuery']} />
 					<p className='project_description'>
@@ -39,7 +39,7 @@ const Works = () =>{
 			</Row>
 
 			<Row className='project'>	
-				<Col md={7} className='project_info'>
+				<Col lg={7} className='project_info'>
 					<h4 className='project_title'> Weather App </h4>
 					<Tags tags = {['Django','HTML/CSS', 'Bootstrap']} />
 					<p className='project_description'>
@@ -55,7 +55,7 @@ const Works = () =>{
 
 					
 				</Col>
-				<Col md={5} className='project_thumbnail'>
+				<Col lg={5} className='project_thumbnail'>
 					<a href='http://weatherlive.herokuapp.com/'>
 						<Image className='work_thumbnail' src={weatherappThumbnail} />
 					</a>
@@ -63,12 +63,12 @@ const Works = () =>{
 			</Row>
 
 			<Row className='project'>
-				<Col md={5} className='project_thumbnail'>
+				<Col lg={5} className='project_thumbnail'>
 					<a href='https://pypi.org/project/postalcodes-nepal/'>
 						<Image className='work_thumbnail' src={postalcodesThumbnail} />
 					</a>
 				</Col>
-				<Col md={7} className='project_info'>
+				<Col lg={7} className='project_info'>
 					<h4 className='project_title'> postalcodes-nepal </h4>
 					<Tags tags = {['Python']} />
 					<p className='project_description'>
