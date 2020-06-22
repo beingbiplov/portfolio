@@ -33,7 +33,7 @@ const Skills = () =>{
 			</Col>
 		)
 	return(
-		<Container className='skills_section' id='skills_section'>
+		<Container className='skills_section' id='skills'>
 			<h3 className='skills_title'>
 				Skills
 			</h3>

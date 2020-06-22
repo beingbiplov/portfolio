@@ -10,7 +10,7 @@ import Projectlinks from './Projectlinks'
 
 const Works = () =>{
 	return(
-		<Container className='works_section' id='works_section'>
+		<Container className='works_section' id='works'>
 			<h3 className='works_title'>
 				My Works
 			</h3>

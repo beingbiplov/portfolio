@@ -9,7 +9,7 @@ const NavigationBar = () => {
 		<Headroom>
 		<div className="container-fluid" id='navbar_section'>
 		    <Navbar className="navbar  py-3" expand='md'>
-		        <Navbar.Brand href="#Intro_section">
+		        <Navbar.Brand href="#home">
 		        	<Image className = 'brand_logo' src={biplov_logo} />
 		        </Navbar.Brand>
 		         <Navbar.Toggle aria-controls="basic-navbar-nav" >
@@ -19,9 +19,9 @@ const NavigationBar = () => {
 	            <Navbar.Collapse id="basic-navbar-nav">
 	                <ul className="navbar-nav ml-auto">
 	                    <li className="nav-item active"><a href="#about_section" className="nav-link text-uppercase">About <span className="sr-only">(current)</span></a></li>
-	                    <li className="nav-item"><a href="#skills_section" className="nav-link text-uppercase">Skills</a></li>
-	                    <li className="nav-item"><a href="#works_section" className="nav-link text-uppercase">Work</a></li>
-	                    <li className="nav-item"><a href="#contact_section" className="nav-link text-uppercase">Contact</a></li>
+	                    <li className="nav-item"><a href="#skills" className="nav-link text-uppercase">Skills</a></li>
+	                    <li className="nav-item"><a href="#works" className="nav-link text-uppercase">Work</a></li>
+	                    <li className="nav-item"><a href="#contact" className="nav-link text-uppercase">Contact</a></li>
 	                </ul>
 	            </Navbar.Collapse>
 
