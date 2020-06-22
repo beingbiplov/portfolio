@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8c310d2c0d03881e4f50dd2690ceb8b9",
+    "revision": "be3bd67ea193f7e56f8309115cf32522",
     "url": "/index.html"
   },
   {
-    "revision": "da0b2badd314959b288e",
-    "url": "/static/css/main.24032b92.chunk.css"
+    "revision": "73bb111c529c856f4924",
+    "url": "/static/css/main.ec05a3fc.chunk.css"
   },
   {
     "revision": "8d8039d90adb6cb7dee8",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.39a7d7a4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "da0b2badd314959b288e",
-    "url": "/static/js/main.1c91571b.chunk.js"
+    "revision": "73bb111c529c856f4924",
+    "url": "/static/js/main.ec10e3c5.chunk.js"
   },
   {
     "revision": "cceac853322a9b55224b",
@@ -52,6 +52,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/javascript.2f21395d.svg"
   },
   {
+    "revision": "aa6108056eb564d07258bb0e12ec84b9",
+    "url": "/static/media/movieplus.aa610805.png"
+  },
+  {
     "revision": "a903a0ac018ea485f34ce7000346cf75",
     "url": "/static/media/postalcodes_nepal.a903a0ac.png"
   },
@@ -66,9 +70,5 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "5e2aac4c136094c038da47714858112e",
     "url": "/static/media/sampadak.5e2aac4c.png"
-  },
-  {
-    "revision": "b8e1ad87714e4f1acf5f84b778395c2b",
-    "url": "/static/media/weatherapp.b8e1ad87.png"
   }
 ]);
