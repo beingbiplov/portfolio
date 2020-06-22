@@ -2,7 +2,7 @@ import React from 'react'
 import './css/Works.css'
 import { Container, Row, Col, Image } from 'react-bootstrap'
 import sampadakThumbnail from './assets/work_images/sampadak.png'
-import weatherappThumbnail from './assets/work_images/weatherapp.png'
+import MoviePlusThumbnail from './assets/work_images/movieplus.png'
 import postalcodesThumbnail from './assets/work_images/postalcodes_nepal.png'
 
 import Tags from './Tags'
@@ -40,24 +40,24 @@ const Works = () =>{
 
 			<Row className='project'>	
 				<Col lg={7} className='project_info'>
-					<h4 className='project_title'> Weather App </h4>
-					<Tags tags = {['Django','HTML/CSS', 'Bootstrap']} />
+					<h4 className='project_title'> MoviePlus </h4>
+					<Tags tags = {['React','Django', 'Heroku']} />
 					<p className='project_description'>
-						This application shows weather conditions from cities around the world.
-						You can search any cities to see the current weather conditions.
+						MoviePlus is a movie application built with React and Django and
+						hosted on Heroku. Django Rest Framework is used to fetch the data 
+						provided by the MovieDB API which is then passed on to the frontend framework.
 					</p>
 					<p className='project_description'>
-						This application is created using Python's Django Framework and makes use 
-						of <a className='paragraph_link' href='https://openweathermap.org/api'> openweathermap API </a>
-						to fetch realtime weather data. 
+						MoviePlus allows you to view popular-upcomming movies, view movie details,
+						search for movies, view trailer and more.
 					</p>
-					<Projectlinks demolink='http://weatherlive.herokuapp.com/' githublink='#' />
+					<Projectlinks demolink='https://moviepluss.herokuapp.com/' githublink='https://github.com/beingbiplov/MoviePlus' />
 
 					
 				</Col>
 				<Col lg={5} className='project_thumbnail'>
-					<a href='http://weatherlive.herokuapp.com/'>
-						<Image className='work_thumbnail' src={weatherappThumbnail} />
+					<a href='https://moviepluss.herokuapp.com/'>
+						<Image className='work_thumbnail' src={MoviePlusThumbnail} />
 					</a>
 				</Col>
 			</Row>
